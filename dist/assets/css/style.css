@@ -1,0 +1,14 @@
+.catalog {
+    display: grid;
+    gap: 10px;
+    background-color: green;
+    color: #fff;
+}
+
+.catalog__item {
+    background-color: orange;
+}
+
+.catalog .item5 {
+    background-color: aqua;
+}

@@ -1,0 +1,9 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 20%) 150px;
+  grid-template-rows: 100px 200px auto;
+  grid-gap: 20px;
+  background: green; }
+
+.grid-item {
+  background-color: orange; }
