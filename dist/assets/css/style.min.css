@@ -1,10 +1,13 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 100px);
-  grid-auto-flow: column;
-  grid-auto-columns: 50px;
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
   background: green; }
 
 .grid-item {
   background-color: orange; }
+
+.grid-item-5 {
+  background: #fff;
+  grid-column: span 2;
+  grid-row: span 3; }

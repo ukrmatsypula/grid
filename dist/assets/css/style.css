@@ -1,5 +1,9 @@
 .grid-container {
     display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-auto-flow: column;
+    grid-auto-columns: 50px;
+    grid-gap: 20px;
     background: green;
 }
 
