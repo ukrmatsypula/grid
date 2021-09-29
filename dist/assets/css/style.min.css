@@ -1,6 +1,6 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fill, 100px);
   grid-gap: 20px;
   background: green; }
 
@@ -8,8 +8,4 @@
   background-color: orange; }
 
 .grid-item-5 {
-  background: #fff;
-  grid-column: span 2;
-  grid-row: span 3;
-  grid-column: 2 / -1;
-  grid-row: 1 / 6; }
+  background: #fff; }
