@@ -1,11 +1,21 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100, 1fr));
-  grid-gap: 20px;
-  background: green; }
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 90px 200px 70px;
+  grid-template-areas: "header header header" "sidebar content content" "footer footer footer";
+  gap: 10px; }
 
-.grid-item {
+.item {
   background-color: orange; }
 
-.grid-item-5 {
-  background: #fff; }
+.header {
+  grid-area: header; }
+
+.sidebar {
+  grid-area: sidebar; }
+
+.content {
+  grid-area: content; }
+
+.footer {
+  grid-area: footer; }
