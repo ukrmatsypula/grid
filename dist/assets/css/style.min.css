@@ -10,4 +10,6 @@
 .grid-item-5 {
   background: #fff;
   grid-column: span 2;
-  grid-row: span 3; }
+  grid-row: span 3;
+  grid-column: 2 / -1;
+  grid-row: 1 / 6; }
